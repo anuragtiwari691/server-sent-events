@@ -17,12 +17,16 @@ go run main.go
 ```
 
 The server will start on `http://localhost:8080` and will:
-- Serve the webpage at `/`
-- Stream real-time metrics at `/events`
-- Display CPU and Memory metrics every 2 seconds
+
+### 3. Run the client
+```bash
+cd ../client
+go run main.go
+```
+The client server will start on `http://localhost:3000` 
 
 ### 3. Open in Browser
-Once the server is running, open your browser and navigate to:
+Once the client server is running, open your browser and navigate to:
 ```
 http://localhost:3000
 ```
